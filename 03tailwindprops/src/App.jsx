@@ -9,9 +9,9 @@ function App() {
   
   return(
 <>
-    <Card userName = 'souvik' />,
-    <Card userName = 'sourav' />,
-    <Card userName = 'surojit' />
+    <Card userName = 'souvik' btnText ='CLICK ME' />,
+    <Card userName = 'sourav' btnText ='HIT ME HARDER' />,
+    <Card userName = 'surojit' btnText ='PUSH ME' />
 </>
   )
 }
