@@ -2,13 +2,13 @@ import React from "react"
 
 function Souvik() {
     return (
-        <h1>My name is Souvik pal {3+2}</h1>
+        <h1>My name is Souvik pal</h1>
     )
 }
 
 const reactElement = React.createElement (
     'a',
     {href: "https://google.com",  target: '_blank'},
-    'Click me to visit Google'
+    'click me to visit google'
 )
 export default Souvik
